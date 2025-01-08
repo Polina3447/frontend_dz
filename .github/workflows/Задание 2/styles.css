@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: #ffdab9; /* Персиковый фон для всей страницы */
+}
+
+header {
+    background-color: #ffdab9; /* Персиковый фон для шапки */
+    text-align: center;
+    padding: 1em 0;
+     border-bottom: 1px solid #8B4513; /* Темно-коричневый разделитель */
+}
+
+main {
+    display: flex;
+    padding: 20px;
+     background-color: #ffdab9; /* Персиковый фон для main */
+
+}
+
+.text-section {
+    flex: 2; /* Занимает большую часть свободного пространства */
+}
+
+.image-section {
+    flex: 1; /* Занимает меньшую часть свободного пространства */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-section img{
+     width: 200px;
+     height: 150px;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 20px;
+    border-top: 1px solid #8B4513; /* Темно-коричневый разделитель */
+     background-color: #ffdab9; /* Персиковый фон для подвала */
+}
